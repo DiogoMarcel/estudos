@@ -1,0 +1,5 @@
+* no arquivo package.json foi necessário alterar o nome do arquivo MAIN, estava o index.js, porém eu queria o funcionarios.js 
+
+* o Nodemon foi instalado diretamente na pasta do projeto com a linha de comando: "npm install nodemon --save"
+
+* IMPORTANTE: Nodemon: se não instalar remover a linha start:nodemon.

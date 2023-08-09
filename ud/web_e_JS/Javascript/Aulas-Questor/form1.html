@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Javascript</title>
+    <script src="./mainQuestor.js" type="text/Javascript"></script>
+</head>
+
+<body>
+    <form onsubmit="alert('onSubmit by form - acionado')" name="meuForm" method="get">
+        <input type="text" id="txtNome" placeholder="Digite seu nome"></br>
+        <input type="text" id="txtTelefone" placeholder="Telefone"></br>
+        <input type="radio" name="radOpcao" value="Opção1"></br>
+        <input type="checkbox" name="chkOpcao" value="OutraOpção"></br>
+        <textarea name="area"></textarea></br>
+        <select name="select"></select></br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancelar">
+    </form>
+
+    <script>
+        document.write("Resultado do 1 elemento: " + document.meuForm.txtNome.type + "</br>"); 
+
+        document.write("Resultado do 1 elemento: " + document.meuForm.txtNome.value + "</br>"); 
+
+        document.write("Resultado do 2 elemento: " + document.meuForm.txtTelefone.type + "</br>");
+        document.write("Resultado do 3 elemento: " + document.meuForm.radOpcao.type + "</br>");
+        document.write("Resultado do 4 elemento: " + document.meuForm.chkOpcao.type + "</br>");
+        document.write("Resultado do 5 elemento: " + document.meuForm.elements["select"].nodeName + "</br>");
+        document.write("Resultado do 6 elemento: " + document.meuForm.elements["area"].nodeName + "</br>");
+        document.write("Resultado do 7 elemento: " + document.meuForm.elements["submit"] + "</br>");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Javascript</title>
+    <script src="./mainQuestor.js" type="text/Javascript"></script>
+</head>
+
+<body>
+    
+    <center>
+        <form name="meuForm" action="">
+            <button id="btnValue" value="12345">Clique Aqui óh</button>
+        </form>        
+    </center>
+
+    <script>
+        let varBotao = document.getElementById("btnValue");
+        varBotao.onclick = function() {
+            document.write(varBotao.value);
+            console.log(varBotao.value);
+        }
+    </script>
+</body>
+
+</html>

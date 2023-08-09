@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Javascript</title>
+    <script src="./mainQuestor.js" type="text/Javascript"></script>
+</head>
+
+<body>
+    
+    <center>
+        <form name="meuForm">
+            <select name="lista" onchange="Escolha(this.value)">
+                <option value="Moto">Moto</option>
+                <option value="Carro">Carro</option>
+                <option value="Moto">Moto</option>
+            </select>
+        </form>        
+    </center>
+
+    <script>
+        function minhaFuncao(){
+            document.getElementById("meuForm").submit();
+            alert("Operação OK");
+        }
+    </script>
+</body>
+
+</html>
