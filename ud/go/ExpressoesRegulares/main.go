@@ -7,6 +7,8 @@ import (
 	"regexp"
 )
 
+const STR_ERROR = "Error:"
+
 func Expressoes() {
 	var AExpressaoRegular string
 	var AAlterarTexto string
@@ -16,17 +18,17 @@ func Expressoes() {
 	fmt.Println("Digite um texto qualquer:")
 	ATextoDigitado, err := AReader.ReadString('\n')
 	if err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println(STR_ERROR, err)
 	}
 
 	fmt.Println("\nDigite uma Expressão Regular para pesquisa (sem espaços):")
 	if _, err := fmt.Scanln(&AExpressaoRegular); err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println(STR_ERROR, err)
 	}
 
 	fmt.Println("\nDigite uma palavra para alterar o texto na busca (sem espaços):")
 	if _, err := fmt.Scanln(&AAlterarTexto); err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println(STR_ERROR, err)
 	}
 
 	ARegEx, _ := regexp.Compile(AExpressaoRegular)
