@@ -1,3 +1,6 @@
 fc-devops-docker/
 imersao13/
 .history
+fc/devops/docker/mySpace/compose/mysql
+fc/devops/docker/mySpace/compose/node
+go.work
