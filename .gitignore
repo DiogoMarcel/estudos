@@ -1,6 +1,6 @@
 fc-devops-docker/
 imersao13/
 .history
-fc/devops/docker/mySpace/compose/mysql
-fc/devops/docker/mySpace/compose/node
+fc/devops/docker/compose/mysql
+fc/devops/docker/compose/node
 go.work
