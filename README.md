@@ -1,8 +1,26 @@
 # Estudos :book:
 Diretório destinado para estudos gerais.
 
+### [Pasta Alura](https://github.com/DiogoMarcel/estudos/tree/d3b0dd0f5dd2edc7f33b0d89500b5ded891e9f7d/alura)
+- Diretório para estudos na plataforma Alura.
+
+  - [goapi](https://github.com/DiogoMarcel/estudos/tree/65cde403ca5e5847759ce5048b2ba2be313e4674/alura/goapi)
+    - Go: desenvolvendo uma API Rest - https://cursos.alura.com.br/course/go-desenvolvendo-api-rest
+
+  - [python](https://github.com/DiogoMarcel/estudos/tree/65cde403ca5e5847759ce5048b2ba2be313e4674/alura/python)
+    - Aprenda a programar em Python com Orientação a Objetos https://cursos.alura.com.br/formacao-linguagem-python
+
+  - [typescript-curso](https://github.com/DiogoMarcel/estudos/tree/65cde403ca5e5847759ce5048b2ba2be313e4674/alura/typescript-curso)
+    - Melhore sua experiência de desenvolvimento com TypeScript https://cursos.alura.com.br/formacao-typescript
+  
 ### [Pasta FC](https://github.com/DiogoMarcel/estudos/tree/d3b0dd0f5dd2edc7f33b0d89500b5ded891e9f7d/fc)
 - Diretório para estudos na plataforma Full Cycle.
+  
+  - [DDD-ModelagemTatica](https://github.com/DiogoMarcel/estudos/tree/65cde403ca5e5847759ce5048b2ba2be313e4674/fc/devops/DDD-ModelagemTatica)
+    
+  - [arquitetura-hexagonal](https://github.com/DiogoMarcel/estudos/tree/65cde403ca5e5847759ce5048b2ba2be313e4674/fc/devops/arquitetura-hexagonal)
+  
+  - [docker](https://github.com/DiogoMarcel/estudos/tree/65cde403ca5e5847759ce5048b2ba2be313e4674/fc/devops/docker)
 
 ### [Pasta UD](https://github.com/DiogoMarcel/estudos/tree/d3b0dd0f5dd2edc7f33b0d89500b5ded891e9f7d/ud)
 - Diretório para estudos na plataforma Udemy.
